@@ -1,0 +1,207 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+.full-screen{
+	height: 100%;
+	width: 100%;
+}
+
+.header-index{
+	background-image: url(../img/header.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.title-size{
+	font-size: 60px !important;
+	letter-spacing: 2px;
+}
+
+
+/******************************************/
+/* GHOST BUTTON FOR INDEX */
+/******************************************/
+
+.ghost-button{
+	/*background-color: #fff;*/
+	border: 0.15em solid #ffffff;
+	border-radius: 30px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 1em 1.5em;
+	position: relative;
+	text-decoration: none;
+
+	/*CHANGE COLORS WHIT ANIMATION*/
+	-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.ghost-button:hover {
+	color: #fff;
+    background: #123159;
+    border-color: #123159;
+    text-decoration: none;
+}
+
+/******************************************/
+/* GHOST BUTTON FOR PROFILES */
+/******************************************/
+
+.ghost-button-profile{
+	background-color: rgba(255,255,255, 0);
+	border: 0.3em solid #cdcdcd;
+	color: #8e8e8c;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 1em 1.5em;
+	position: relative;
+	text-decoration: none;
+
+	/*CHANGE COLORS WHIT ANIMATION*/
+	-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.ghost-button-profile:hover {
+	color: #fff;
+    background: #cdcdcd;
+    border-color: #cdcdcd;
+    text-decoration: none;
+}
+
+/******************************************/
+/* BOTONES INDEX */
+/******************************************/
+
+/* TODO: css code here */
+
+/******************************************/
+/* SANTA MARÍA DE LOS ÁNGELES PROFILE     */
+/******************************************/
+
+.sta-angeles-profile{
+	background-image: url(../img/sta_header.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.casa-retiro-1{
+	background-image: url(../img/fuente.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.casa-retiro-2{
+	background-image: url(../img/patio.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.casa-retiro-3{
+	background-image: url(../img/fuente_2.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+/****************************************/
+/* 			PROFILES LINKS     			*/
+/****************************************/
+
+.back-color{
+	background-color: rgba(0,0,0,0.2);
+	color: #ffffff;
+	height: 696px;
+	letter-spacing: 2px;
+	padding-top: 25%;
+}
+
+
+.margin-corrector{
+	padding: 0 !important;
+}
+
+.profile{
+	color: #ffffff;
+	letter-spacing: 5px;
+	padding: 10% 0 5%;
+}
+
+/******************************************/
+/* GHOST BUTTON */
+/******************************************/
+
+.ghost-button-links{
+	background-color: rgba(255,255,255, 0);
+	border: 0.2em solid #ffffff;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 1em 1.5em;
+	position: relative;
+	text-decoration: none;
+
+	/*CHANGE COLORS WHIT ANIMATION*/
+	-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.ghost-button-links:hover {
+	color: #fff;
+    background: #000000;
+    border-color: #000000;
+    text-decoration: none;
+}
+
+
+/************** BETANIA *****************/
+
+.betania{
+	background-image: url(../img/5736c9_82f30d7ae39a4b53ad7ff681554b9cae.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+
+/************* AUDITORIO ****************/
+
+.auditorio{
+	background-image: url(../img/auditorio.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
