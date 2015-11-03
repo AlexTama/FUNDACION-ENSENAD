@@ -33,7 +33,38 @@ html, body {
 /* CONTACT FORM STYLE */
 /******************************************/
 
+.input-style-reset{
+	background-color:#eeeeee !important;
+	border:1px #eeeeee !important;
+	border-radius:0px !important;
+	box-shadow: none !important;
+}
 
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: #999999 !important;
+	letter-spacing:5px !important;
+	font-weight: 700 !important;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color: #999999 !important;
+	letter-spacing:5px !important;
+	font-weight: 900 !important;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    color: #999999 !important;
+	letter-spacing:5px !important;
+	font-weight: bold !important;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    color: #999999 !important;
+	letter-spacing:5px !important;
+	font-weight: 700 !important;
+}
 
 /******************************************/
 /* GHOST BUTTON FOR INDEX */
