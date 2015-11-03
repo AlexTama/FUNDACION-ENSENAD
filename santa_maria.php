@@ -41,7 +41,7 @@
 	<!-- *************************************** -->
 	<section class="container-fluid casa-retiro-1 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center margin-corrector full-screen">
+			<div class="col-md-12 text-center full-screen">
 
 				<div class="col-md-6 back-color">
 					<h3>HOSPEDAJE CON CAPACIDAD HASTA 120 PERSONAS</h3>	

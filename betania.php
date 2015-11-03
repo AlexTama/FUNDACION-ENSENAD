@@ -12,7 +12,7 @@
 	<!-- FIRST SECTION -->
 	<!-- menu and header -->
 	<!-- *************************************** -->
-	<section class="container-fluid sta-angeles-profile full-screen">
+	<section class="container-fluid betania-profile full-screen">
 		<div class="row">
 			<div class="col-md-12" style="padding:25% 0 0;">
 				
@@ -39,7 +39,7 @@
 	<!-- SECOND SECTION -->
 	<!-- Background and description -->
 	<!-- *************************************** -->
-	<section class="container-fluid casa-retiro-1 full-screen">
+	<section class="container-fluid betania-casa-retiro-1 full-screen">
 		<div class="row">
 			<div class="col-md-12 text-center margin-corrector full-screen">
 
@@ -55,7 +55,7 @@
 	<!-- THIRD SECTION -->
 	<!-- Background and description -->
 	<!-- *************************************** -->
-	<section class="container-fluid casa-retiro-2 full-screen">
+	<section class="container-fluid betania-casa-retiro-2 full-screen">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				
@@ -72,7 +72,7 @@
 	<!-- FOURTH SECTION -->
 	<!-- Background and description -->
 	<!-- *************************************** -->
-	<section class="container-fluid casa-retiro-3 full-screen">
+	<section class="container-fluid betania-casa-retiro-3 full-screen">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				

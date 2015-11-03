@@ -166,6 +166,95 @@ html, body {
 	margin: auto;
 }
 
+/******************************************/
+/* 			BETANIA PROFILE 		      */
+/******************************************/
+
+.betania-profile{
+	background-image: url(../img/betania/betania_header.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.betania-casa-retiro-1{
+	background-image: url(../img/betania/5736c9_4ab2b2d0de5c4e7c8d2b830045fd76a2.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.betania-casa-retiro-2{
+	background-image: url(../img/betania/5736c9_5cfe195841b44c73884b3c9849efbdf9.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.betania-casa-retiro-3{
+	background-image: url(../img/betania/5736c9_429096e6041146e1b84cc6aff25121d8.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+/******************************************/
+/* 			AUDITORIO PROFILE 		      */
+/******************************************/
+
+.auditorio-profile{
+	background-image: url(../img/auditorio/5736c9_bbb72dacdb894cbca4a48614251525e8.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+	
+}
+
+.auditorio-casa-retiro-1{
+	background-image: url(../img/auditorio/5736c9_d3747455477247319dc47a5d80badebe.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.auditorio-casa-retiro-2{
+	background-image: url(../img/auditorio/5736c9_bf3b6daae72d4f93858931e9ea05b022.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.auditorio-casa-retiro-3{
+	background-image: url(../img/auditorio/5736c9_e80f80c296cc4818b074fb706d1e4307.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
 /****************************************/
 /* 			PROFILES LINKS     			*/
 /****************************************/
@@ -175,12 +264,9 @@ html, body {
 	color: #ffffff;
 	height: 696px;
 	letter-spacing: 2px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
 	padding-top: 25%;
-}
-
-
-.margin-corrector{
-	padding: 0 !important;
 }
 
 .profile{
@@ -219,7 +305,7 @@ html, body {
 /************* AUDITORIO ****************/
 
 .auditorio{
-	background-image: url(../img/auditorio.jpg);
+	background-image: url(../img/auditorio/5736c9_059de42cb15f45ea93d543946170c4e5.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover
@@ -231,7 +317,7 @@ html, body {
 /************** BETANIA *****************/
 
 .betania{
-	background-image: url(../img/5736c9_82f30d7ae39a4b53ad7ff681554b9cae.jpg);
+	background-image: url(../img/betania/5736c9_82f30d7ae39a4b53ad7ff681554b9cae.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover
@@ -243,7 +329,7 @@ html, body {
 /****** SANTA MARÍA DE LOS ÁNGELES ********/
 
 .santa-maria{
-	background-image: url(../img/5736c9_9ea9b499c75b44c699b473600d4d3451.jpg);
+	background-image: url(../img/santa/5736c9_9ea9b499c75b44c699b473600d4d3451.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover
