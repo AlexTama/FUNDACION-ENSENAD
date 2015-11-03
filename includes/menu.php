@@ -20,7 +20,7 @@
 					<a class="page-scroll" href="index.php">INICIO</a>
 				</li>
 				<li>
-					<a class="page-scroll" href="#contacto">CONTACTO</a>
+					<a class="page-scroll" href="contacto.php">CONTACTO</a>
 				</li>
 			</ul>
 		</div>

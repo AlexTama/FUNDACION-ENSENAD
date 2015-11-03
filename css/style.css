@@ -23,6 +23,17 @@ html, body {
 	letter-spacing: 2px;
 }
 
+/******************************************/
+/* BOTONES INDEX */
+/******************************************/
+
+/* TODO: css code here */
+
+/******************************************/
+/* CONTACT FORM STYLE */
+/******************************************/
+
+
 
 /******************************************/
 /* GHOST BUTTON FOR INDEX */
@@ -79,11 +90,6 @@ html, body {
     text-decoration: none;
 }
 
-/******************************************/
-/* BOTONES INDEX */
-/******************************************/
-
-/* TODO: css code here */
 
 /******************************************/
 /* SANTA MARÍA DE LOS ÁNGELES PROFILE     */
@@ -179,6 +185,17 @@ html, body {
     text-decoration: none;
 }
 
+/************* AUDITORIO ****************/
+
+.auditorio{
+	background-image: url(../img/auditorio.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
 
 /************** BETANIA *****************/
 
@@ -192,11 +209,10 @@ html, body {
 	margin: auto;
 }
 
+/****** SANTA MARÍA DE LOS ÁNGELES ********/
 
-/************* AUDITORIO ****************/
-
-.auditorio{
-	background-image: url(../img/auditorio.jpg);
+.santa-maria{
+	background-image: url(../img/5736c9_9ea9b499c75b44c699b473600d4d3451.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover
@@ -204,4 +220,3 @@ html, body {
 	background-size:cover;
 	margin: auto;
 }
-

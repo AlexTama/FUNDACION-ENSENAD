@@ -107,7 +107,7 @@
 		<div class="row">
 			<div class="col-md-12 text-center margin-corrector">
 				<!-- SANTA MARÍA DE LOS ÁNGELES -->
-				<div class="col-md-6 betania profile">
+				<div class="col-md-6 santa-maria profile">
 					<h3 class="lead">SANTA MARÍA DE LOS ÁNGELES</h3>
 					<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
 				</div>
