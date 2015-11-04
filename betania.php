@@ -44,7 +44,10 @@
 			<div class="col-md-12 text-center margin-corrector full-screen">
 
 				<div class="col-md-6 back-color">
-					<h3>HOSPEDAJE CON CAPACIDAD HASTA 120 PERSONAS</h3>	
+					<h3>HOSPEDAJE CON CAPACIDAD HASTA 70 PERSONAS <br><br>
+						AMPLIAS ZONAS VERDES
+
+					</h3>	
 				</div>
 
 			</div>
@@ -60,7 +63,11 @@
 			<div class="col-md-12 text-center">
 				
 				<div class="col-md-offset-6 col-md-6 back-color">
-					<h3> 3 SALONES DE CONFERENCIA WI-FI</h3>
+
+					<h3> 2 SALONES DE CONFERENCIA <br><br>
+						HERMOSA CAPILLA PARA CELEBRACIONES LITÚRGICAS
+
+					</h3>
 						
 				</div>
 
@@ -77,10 +84,7 @@
 			<div class="col-md-12 text-center">
 				
 				<div class="col-md-6 back-color">
-					<h3>AUDITORIO CON CAPACIDAD HASTA 400 PERSONAS <br><br><br> 
-						SERVICIO DE RESTAURANTE Y AMPLIO PARQUEADERO
-
-					</h3>
+					<h3>SERVICIO DE RESTAURANTE Y AMPLIO PARQUEADERO</h3>
 
 				</div>
 
@@ -94,7 +98,7 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center" style="padding:10% 0 10%">
-				<button type="button" class="ghost-button-profile" data-toggle="modal" data-target="#myModal">VER GALERÍA</button>
+				<button type="button" class="ghost-button-profile" data-toggle="modal" data-target=".bs-example-modal-lg">VER GALERÍA</button>
 			</div>
 		</div>
 	</section>
@@ -128,5 +132,54 @@
 	
 	<!-- SCRIPTS FOR ANIMATION -->
 	<?php include 'includes/scripts.php'; ?>
+	
+	<!-- ***************************************************************** -->
+	<!-- MODAL TEMPLATE FOR SLIDE -->
+	<!-- ***************************************************************** -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+
+				<div class="modal-header">
+	    			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	    			<h4 class="modal-title text-center" id="myModalLabel">CASA DE RETIROS BETANIA</h4>
+	    		</div>
+
+				<div class="modal-body">
+
+					<!-- SLIDER -->
+		    		<div id="carousel-c" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+
+							<!-- INTERACTIVE INDICATORS -->
+							<?php include 'includes/indicadores_betania.php'; ?>
+										
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							
+							<!-- INTERACTIVE GALLERY -->
+							<?php include 'includes/betania_slide.php'; ?>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-c" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-c" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						</a>
+					</div>
+					
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
 </body>
 </html>
