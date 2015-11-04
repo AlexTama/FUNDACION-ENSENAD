@@ -44,7 +44,10 @@
 			<div class="col-md-12 text-center margin-corrector">
 
 				<div class="col-md-6 back-color">
-					<h3>HOSPEDAJE CON CAPACIDAD HASTA 120 PERSONAS</h3>	
+					<h3>CAPACIDAD PARA MÁS DE 1200 PERSONAS <br><br>
+						AMPLIO Y MODERNO LOBBY
+
+					</h3>	
 				</div>
 
 			</div>
@@ -60,7 +63,11 @@
 			<div class="col-md-12 text-center">
 				
 				<div class="col-md-offset-6 col-md-6 back-color">
-					<h3> 3 SALONES DE CONFERENCIA WI-FI</h3>
+					<h3>SALA VIP	 		<br><br>
+						SALA DE SERVICIOS 	<br><br>
+						ZONAS VERDES 		<br><br>		
+
+					</h3>
 						
 				</div>
 
@@ -77,9 +84,8 @@
 			<div class="col-md-12 text-center">
 				
 				<div class="col-md-6 back-color">
-					<h3>AUDITORIO CON CAPACIDAD HASTA 400 PERSONAS <br><br><br> 
-						SERVICIO DE RESTAURANTE Y AMPLIO PARQUEADERO
-
+					<h3>SERVICIO DE CATERING <br><br>
+						PARQUEADERO CON CAPACIDAD PARA 200 VEHÍCULOS
 					</h3>
 
 				</div>
@@ -105,19 +111,24 @@
 	<!-- *************************************** -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 text-center margin-corrector">
-				<!-- SANTA MARÍA DE LOS ÁNGELES -->
-				<div class="col-md-6 santa-maria profile">
-					<h3 class="lead">SANTA MARÍA DE LOS ÁNGELES</h3>
+			<div class="col-md-6 santa-maria">
+				<div class="row">
+					<div class="index-button profile text-center">
+						<h3 class="lead">SANTA MARÍA DE LOS ÁNGELES</h3>
 					<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
-				</div>
-
-				<!-- BETANIA -->
-				<div class="col-md-6 betania profile">
-					<h3 class="lead">BETANIA</h3>
-					<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
 				</div>
 			</div>
+
+			<div class="col-md-6 betania">
+				<div class="row">
+					<div class="index-button profile text-center">
+						<h3 class="lead">BETANIA</h3>
+						<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
 

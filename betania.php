@@ -109,17 +109,21 @@
 	<!-- *************************************** -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 text-center margin-corrector">
-				<!-- SANTA MARÍA DE LOS ÁNGELES -->
-				<div class="col-md-6 santa-maria profile">
-					<h3 class="lead">SANTA MARÍA DE LOS ÁNGELES</h3>
+			<div class="col-md-6 santa-maria">
+				<div class="row">
+					<div class="index-button profile text-center">
+						<h3 class="lead">SANTA MARÍA DE LOS ÁNGELES</h3>
 					<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
 				</div>
+			</div>
 
-				<!-- AUDITORIO DIOCESÁNO -->
-				<div class="col-md-6 auditorio profile">
-					<h3 class="lead">AUDITORIO DIOCESÁNO</h3>
-					<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
+			<div class="col-md-6 auditorio">
+				<div class="row">
+					<div class="index-button profile text-center">
+						<h3 class="lead">AUDITORIO DIOCESÁNO</h3>
+						<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
 				</div>
 			</div>
 		</div>

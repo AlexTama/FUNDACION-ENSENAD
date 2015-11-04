@@ -27,7 +27,49 @@ html, body {
 /* BOTONES INDEX */
 /******************************************/
 
-/* TODO: css code here */
+.auditorio-index{
+	background-image: url(../img/auditorio/5736c9_1.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+.betania-index{
+	background-image: url(../img/betania/5736c9_1.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;	
+}
+
+.santa-index{
+	background-image: url(../img/santa/5736c9_8.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover
+	-o-background-size:cover;
+	background-size:cover;
+	margin: auto;
+}
+
+/*** transisiones para los botones ****/
+
+.index-button{
+	background-color: rgba(0,0,0, 0.1);
+
+	/*CHANGE COLORS WHIT ANIMATION*/
+	-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.index-button:hover {
+    background: rgba(0,0,0, 0.5);
+}
 
 /******************************************/
 /* CONTACT FORM STYLE */
@@ -71,7 +113,7 @@ html, body {
 /******************************************/
 
 .ghost-button{
-	/*background-color: #fff;*/
+	background-color: rgba(255,255,255, 0);
 	border: 0.15em solid #ffffff;
 	border-radius: 30px;
 	color: #ffffff;
@@ -89,9 +131,8 @@ html, body {
 
 .ghost-button:hover {
 	color: #fff;
-    background: #123159;
-    border-color: #123159;
-    text-decoration: none;
+    background: #A80000;
+    border-color: #A80000;
 }
 
 /******************************************/
@@ -127,7 +168,7 @@ html, body {
 /******************************************/
 
 .sta-angeles-profile{
-	background-image: url(../img/sta_header.jpg);
+	background-image: url(../img/santa/sta_header.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover
@@ -171,7 +212,7 @@ html, body {
 /******************************************/
 
 .betania-profile{
-	background-image: url(../img/betania/5736c9_7.jpg);
+	background-image: url(../img/betania/betania_header.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover
@@ -215,7 +256,7 @@ html, body {
 /******************************************/
 
 .auditorio-profile{
-	background-image: url(../img/auditorio/5736c9_2.jpg);
+	background-image: url(../img/auditorio/auditorio_header.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover
@@ -272,7 +313,7 @@ html, body {
 .profile{
 	color: #ffffff;
 	letter-spacing: 5px;
-	padding: 10% 0 5%;
+	padding: 30% 0 5%;
 }
 
 /******************************************/

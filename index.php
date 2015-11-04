@@ -13,7 +13,7 @@
 	<!-- FIRST SECTION -->
 	<!-- menu, header and button for services -->
 	<!-- *************************************** -->
-	<section class="container-fluid header-index header-index-color" style="height:100%; width:100%;">
+	<section class="container-fluid header-index header-index-color full-screen">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				
@@ -30,7 +30,8 @@
 					</div>
 
 				<div>
-					<a class="ghost-button" style="letter-spacing:5px;" href="" data-toggle="modal" data-target="#myModal"><b>SERVICIOS</b></a>
+
+					<button type="button" style="letter-spacing:5px;" class="ghost-button" data-toggle="modal" data-target="#myModal">SERVICIOS</button>
 
 				</div>
 				</header>	
@@ -56,22 +57,36 @@
 	<!-- ***************************************************************** -->
 	
 
-	<section class="container-fluid" style="height:100%; width:100%;">
+	<section class="container-fluid">
 		<div class="row">
-				<div class="col-md-6 header-index">
-					<div class="row">
-						sta. maria
-					</div>
-				</div>
 
-				<div class="col-md-6">
-					<div class="row azul" >
-						betania
-					</div>
-					<div class="row verde">
-					 	auditorio
+			<div class="col-md-6 santa-index">
+				<div class="row">
+					<div class="text-center index-button"  style="padding:59% 0 4%;">
+						<h3 class="lead" style="color:#ffffff;" >SANTA MARÍA DE LOS ÁNGELES</h3>
+						<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
 					</div>
 				</div>
+			</div>
+
+			<div class="col-md-6 betania-index">
+				<div class="row" >
+					<div class="text-center index-button"  style="padding:18% 0 4%;">
+						<h3 class="lead" style="color:#ffffff;" >BETANIA</h3>
+						<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
+				</div>
+			</div>
+					
+			<div class="col-md-6 auditorio-index">
+				<div class="row">
+						<div class="text-center index-button"  style="padding:18% 0 4%;">
+						<h3 class="lead" style="color:#ffffff;" >AUDITORIO DIOCESÁNO</h3>
+						<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
+				</div>		
+			</div>
+
 		</div>
 	</section>
 
@@ -89,25 +104,24 @@
 	    	<div class="modal-content">
 		      	<div class="modal-header">
 		        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        	<h4 class="modal-title text-center" id="myModalLabel">NUESTRA HISTORIA</h4>
+		        	<h4 class="modal-title text-center" id="myModalLabel"><b>LUGARES IDEALES PARA</b></h4>
 		      	</div>
 		      	<div class="modal-body">		      
-		        	<p>
-		        		A partir de una inquietud sentida durante su vida sacerdotal y de muchos años de lucha, el padre Nicalás Nicolaes logra fundar en el año 1955 una institución evangelizadora dentro de la Iglesia Católica, llamada Fraternidad Misionera de la Cruz.
-		        		<br><br>
-		        		La razón de ser de esta fundación es la santificación de los miembros y la difusión del evangelio en los ambientes del mundo actual, saliendoal encuentro de las personas necesitadas de Dios. Sin ruido, sin renombre, sin distintivo. Como levadura en la masa.
-		        		<br><br>
-						Durante 50 años la <b>FMC</b> siguiendo las inspiraciones del fundador ha sido un ejército de vanguardia en la misión evangelizadora de la Iglesia Católica.
-						<br><br>
-						Para el padre Nicolás Nicolaes la tecnología moderna constituye un instrumento por excelencia de evangelización. El se preocuoa por utilizar los medios masivos sin descuidar el contacto de persona a persona. Todos los momentos y espacios de la vida cotidiana han de ser aprovechados por la difusión del mensaje de Cristo. Solo así, la <b>FMC</b> logrará realizar su carisma.
-						<br><br>
-						A la luz de Jesús en la Cruz y bajo la protección de Nuestra Señora de los Dolores, la <b>FMC</b> continúa hoy su misión evangelizadora al servicio de Cristo y su Iglesia.
-						<br><br>
-						Damos gracias al Creador por sus bendiciones en los 50 años de nuestra fundación.
-		        	</p>
+		        	<ul>
+		        		<li class="lead" >Retiros Espirituales</li>
+		        		<li class="lead" >Convivencias</li>
+		        		<li class="lead" >Seminarios</li>
+		        		<li class="lead" >Reuniones</li>
+		        		<li class="lead" >Capacitaciones</li>
+		        		<li class="lead" >Congresos</li>
+		        		<li class="lead" >Celebraciones Sociales y Familiares</li>
+		        		<li class="lead" >Encuentros Empresariales</li>
+		        		<li class="lead" >Asambleas</li>
+		        		<li class="lead" >Ferias</li>
+		        	</ul>
 		      	</div>
 		      	<div class="modal-footer">
-		        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 		      	</div>
 	    	</div>
 	  	</div>

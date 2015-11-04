@@ -5,7 +5,7 @@
     padding-top:
 }
 .navbar-default {
-    border-color: transparent;
+    border-color: transparent !important;
     background-color: #222;
 }
 

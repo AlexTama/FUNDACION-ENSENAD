@@ -105,19 +105,24 @@
 	<!-- *************************************** -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 text-center margin-corrector">
-				<!-- BETANIA -->
-				<div class="col-md-6 betania profile">
-					<h3 class="lead">BETANIA</h3>
-					<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
-				</div>
-
-				<!-- AUDITORIO DIOCESÁNO -->
-				<div class="col-md-6 auditorio profile">
-					<h3 class="lead">AUDITORIO DIOCESÁNO</h3>
-					<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
+			<div class="col-md-6 betania">
+				<div class="row">
+					<div class="index-button profile text-center">
+						<h3 class="lead">BETANIA</h3>
+						<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
 				</div>
 			</div>
+
+			<div class="col-md-6 auditorio">
+				<div class="row">
+					<div class="index-button profile text-center">
+						<h3 class="lead">AUDITORIO DIOCESÁNO</h3>
+						<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
