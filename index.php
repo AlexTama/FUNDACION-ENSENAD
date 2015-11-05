@@ -63,7 +63,7 @@
 			<div class="col-md-6 santa-index">
 				<div class="row">
 					<div class="text-center index-button"  style="padding:59% 0 4%;">
-						<h3 class="lead" style="color:#ffffff;" >SANTA MARÍA DE LOS ÁNGELES</h3>
+						<h3 class="lead" style="color:#FFB700;" ><b>SANTA MARÍA DE LOS ÁNGELES</b></h3>
 						<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
 					</div>
 				</div>
@@ -72,7 +72,7 @@
 			<div class="col-md-6 betania-index">
 				<div class="row" >
 					<div class="text-center index-button"  style="padding:18% 0 4%;">
-						<h3 class="lead" style="color:#ffffff;" >BETANIA</h3>
+						<h3 class="lead" style="color:#FFB700;" ><b>BETANIA</b></h3>
 						<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 			<div class="col-md-6 auditorio-index">
 				<div class="row">
 						<div class="text-center index-button"  style="padding:18% 0 4%;">
-						<h3 class="lead" style="color:#ffffff;" >AUDITORIO DIOCESÁNO</h3>
+						<h3 class="lead" style="color:#FFB700;" ><b>AUDITORIO DIOCESÁNO</b></h3>
 						<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
 					</div>
 				</div>		

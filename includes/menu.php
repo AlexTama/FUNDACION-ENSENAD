@@ -11,16 +11,17 @@
 			</button>
 		</div>
 		<!-- Contenido del navbar -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<div class="menu-center collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 			<ul class="nav navbar-nav navbar-right">
 				<li class="hidden">
 								<a href="portafolio.php"></a>
 				</li>
-				<li>
-					<a class="page-scroll" href="index.php">INICIO</a>
+				<li style="font-size:18px;">
+					<a class="page-scroll" href="index.php" style="letter-spacing:5px;"><b>INICIO</b></a>
 				</li>
-				<li>
-					<a class="page-scroll" href="contacto.php">CONTACTO</a>
+
+				<li style="font-size:18px;">
+					<a class="page-scroll" href="contacto.php" style="letter-spacing:5px;"><b>CONTACTO</b></a>
 				</li>
 			</ul>
 		</div>

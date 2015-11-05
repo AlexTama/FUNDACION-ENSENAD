@@ -19,7 +19,7 @@
 				<!-- MENU -->
 				<?php include 'includes/menu.php'; ?>
 
-				<h1 class="text-center lead title-size" style="color:#ffffff;">Santa María de los Ángeles</h1>
+				<h1 class="text-center lead title-size" style="color:#FFB700;">Santa María de los Ángeles</h1>
 			</div>
 		</div>
 	</section>
@@ -43,8 +43,8 @@
 		<div class="row">
 			<div class="col-md-12 text-center full-screen">
 
-				<div class="col-md-6 back-color">
-					<h3>HOSPEDAJE CON CAPACIDAD HASTA 120 PERSONAS</h3>	
+				<div class="col-md-6">
+					<h3 style="color:#FFB700;">HOSPEDAJE CON CAPACIDAD HASTA 120 PERSONAS</h3>	
 				</div>
 
 			</div>
@@ -58,26 +58,40 @@
 	<section class="container-fluid casa-retiro-2 full-screen">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				
-				<div class="col-md-offset-6 col-md-6 back-color">
-					<h3> 3 SALONES DE CONFERENCIA WI-FI</h3>
-						
+					
+				<div class="col-md-offset-6 col-md-6">
+					<h3 style="color:#FFB700;"> 3 SALONES DE CONFERENCIA WI-FI</h3>
+							
 				</div>
 
 			</div>
 		</div>
 	</section>
 
+	<section class="container-fluid full-screen back-color-2">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row full-screen casa-retiro-2">
+					<div class="">
+						<h3 style="color:#FFB700;"> 3 SALONES DE CONFERENCIA WI-FI</h3>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+		
+
 	<!-- *************************************** -->
 	<!-- FOURTH SECTION -->
 	<!-- Background and description -->
-	<!-- *************************************** -->
+	<!-- *************************************** --> 
 	<section class="container-fluid casa-retiro-3 full-screen">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				
-				<div class="col-md-6 back-color">
-					<h3>AUDITORIO CON CAPACIDAD HASTA 400 PERSONAS <br><br><br> 
+				<div class="col-md-6">
+					<h3 style="color:#FFB700;">AUDITORIO CON CAPACIDAD HASTA 400 PERSONAS <br><br><br> 
 						SERVICIO DE RESTAURANTE Y AMPLIO PARQUEADERO
 
 					</h3>
@@ -108,7 +122,7 @@
 			<div class="col-md-6 betania">
 				<div class="row">
 					<div class="index-button profile text-center">
-						<h3 class="lead">BETANIA</h3>
+						<h3 class="lead" style="color:#FFB700;">BETANIA</h3>
 						<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
 					</div>
 				</div>
@@ -117,7 +131,7 @@
 			<div class="col-md-6 auditorio">
 				<div class="row">
 					<div class="index-button profile text-center">
-						<h3 class="lead">AUDITORIO DIOCESÁNO</h3>
+						<h3 class="lead" style="color:#FFB700;">AUDITORIO DIOCESÁNO</h3>
 						<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
 					</div>
 				</div>

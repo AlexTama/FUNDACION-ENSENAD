@@ -14,7 +14,7 @@
 	<!-- *************************************** -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12" style="padding:5% 0 0;">
+			<div class="col-md-12" style="padding:12% 0 0;">
 				
 				<!-- MENU -->
 				<?php include 'includes/menu.php'; ?>
