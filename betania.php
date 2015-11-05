@@ -19,7 +19,7 @@
 				<!-- MENU -->
 				<?php include 'includes/menu.php'; ?>
 
-				<h1 class="text-center lead title-size" style="color:#ffffff;">Betania</h1>
+				<h1 class="text-center lead title-size" style="color:#FFB700;">Betania</h1>
 			</div>
 		</div>
 	</section>
@@ -41,15 +41,10 @@
 	<!-- *************************************** -->
 	<section class="container-fluid betania-casa-retiro-1 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center margin-corrector full-screen">
-
-				<div class="col-md-6 back-color">
-					<h3>HOSPEDAJE CON CAPACIDAD HASTA 70 PERSONAS <br><br>
-						AMPLIAS ZONAS VERDES
-
-					</h3>	
-				</div>
-
+			<div class="margin-reset col-md-12 text-center full-screen text-align-profile">
+				<h3><b>HOSPEDAJE CON CAPACIDAD HASTA 70 PERSONAS <br><br>
+					AMPLIAS ZONAS VERDES</b>
+				</h3>
 			</div>
 		</div>
 	</section>
@@ -60,16 +55,10 @@
 	<!-- *************************************** -->
 	<section class="container-fluid betania-casa-retiro-2 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				
-				<div class="col-md-offset-6 col-md-6 back-color">
-
-					<h3> 2 SALONES DE CONFERENCIA <br><br>
-						HERMOSA CAPILLA PARA CELEBRACIONES LITÚRGICAS
-
-					</h3>
-						
-				</div>
+			<div class="margin-reset col-md-12 text-center text-align-profile">
+				<h3><b>2 SALONES DE CONFERENCIA <br><br>
+					HERMOSA CAPILLA PARA CELEBRACIONES LITÚRGICAS</b>
+				</h3>
 
 			</div>
 		</div>
@@ -81,13 +70,8 @@
 	<!-- *************************************** -->
 	<section class="container-fluid betania-casa-retiro-3 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				
-				<div class="col-md-6 back-color">
-					<h3>SERVICIO DE RESTAURANTE Y AMPLIO PARQUEADERO</h3>
-
-				</div>
-
+			<div class="margin-reset col-md-12 text-center text-align-profile"> 
+				<h3><b>SERVICIO DE RESTAURANTE Y AMPLIO PARQUEADERO</b></h3>
 			</div>
 		</div>
 	</section>
@@ -98,7 +82,7 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center" style="padding:10% 0 10%">
-				<button type="button" class="ghost-button-profile" data-toggle="modal" data-target=".bs-example-modal-lg">VER GALERÍA</button>
+				<button type="button" class="ghost-button-profile" data-toggle="modal" data-target=".bs-example-modal-lg"><b>VER GALERÍA</b></button>
 			</div>
 		</div>
 	</section>
@@ -112,8 +96,8 @@
 			<div class="col-md-6 santa-maria">
 				<div class="row">
 					<div class="index-button profile text-center">
-						<h3 class="lead">SANTA MARÍA DE LOS ÁNGELES</h3>
-					<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
+						<h3 class="lead"><b>SANTA MARÍA DE LOS ÁNGELES</b></h3>
+					<a href="santa_maria.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>
 			</div>
@@ -121,8 +105,8 @@
 			<div class="col-md-6 auditorio">
 				<div class="row">
 					<div class="index-button profile text-center">
-						<h3 class="lead">AUDITORIO DIOCESÁNO</h3>
-						<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
+						<h3 class="lead"><b>AUDITORIO DIOCESÁNO</b></h3>
+						<a href="auditorio.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>
 			</div>

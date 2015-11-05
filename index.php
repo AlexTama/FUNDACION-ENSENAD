@@ -24,14 +24,14 @@
 					<?php include 'includes/menu.php'; ?>
 					
 					<!-- ********** TITLES AND SERVICES BUTTON ***************** -->
-					<div style="margin: 20% 0% 10%; color:#ffffff;">
+					<div style="margin: 20% 0% 10%; color:#FFB700;">
 						<h2><b>BIENVENIDOS A NUESTROS ESPACIOS DE RETIRO</b></h2>
 						<h1>Fundación Id y Enseñad</h1>	
 					</div>
 
 				<div>
 
-					<button type="button" style="letter-spacing:5px;" class="ghost-button" data-toggle="modal" data-target="#myModal">SERVICIOS</button>
+					<button type="button" style="letter-spacing:5px;" class="ghost-button" data-toggle="modal" data-target="#myModal"><b>SERVICIOS</b></button>
 
 				</div>
 				</header>	
@@ -57,14 +57,14 @@
 	<!-- ***************************************************************** -->
 	
 
-	<section class="container-fluid">
+	<section class="container-fluid" style="letter-spacing:5px;">
 		<div class="row">
 
 			<div class="col-md-6 santa-index">
 				<div class="row">
 					<div class="text-center index-button"  style="padding:59% 0 4%;">
 						<h3 class="lead" style="color:#FFB700;" ><b>SANTA MARÍA DE LOS ÁNGELES</b></h3>
-						<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
+						<a href="santa_maria.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>
 			</div>
@@ -73,7 +73,7 @@
 				<div class="row" >
 					<div class="text-center index-button"  style="padding:18% 0 4%;">
 						<h3 class="lead" style="color:#FFB700;" ><b>BETANIA</b></h3>
-						<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
+						<a href="betania.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 				<div class="row">
 						<div class="text-center index-button"  style="padding:18% 0 4%;">
 						<h3 class="lead" style="color:#FFB700;" ><b>AUDITORIO DIOCESÁNO</b></h3>
-						<a href="auditorio.php" class="ghost-button-links">VISITAR SITIO</a>
+						<a href="auditorio.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>		
 			</div>

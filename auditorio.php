@@ -19,7 +19,7 @@
 				<!-- MENU -->
 				<?php include 'includes/menu.php'; ?>
 
-				<h1 class="text-center lead title-size" style="color:#ffffff;">Auditorio Diocesáno</h1>
+				<h1 class="text-center lead title-size" style="color:#FFB700;"><b>Auditorio Diocesáno</b></h1>
 			</div>
 		</div>
 	</section>
@@ -30,7 +30,7 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center" style="background-color:#eeeeee; color:#8e8e8c; padding:20px 0 20px;">
-				<h3 style="letter-spacing:5px;"><b>CONFERENCIAS</b></h3>
+				<h3><b>CONFERENCIAS</b></h3>
 			</div>
 		</div>
 	</section>
@@ -41,14 +41,11 @@
 	<!-- *************************************** -->
 	<section class="container-fluid auditorio-casa-retiro-1 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center margin-corrector">
+			<div class="col-md-12 text-center text-align-profile">
+				<h3><b>CAPACIDAD PARA MÁS DE 1200 PERSONAS <br><br>
+				AMPLIO Y MODERNO LOBBY</b>
 
-				<div class="col-md-6 back-color">
-					<h3>CAPACIDAD PARA MÁS DE 1200 PERSONAS <br><br>
-						AMPLIO Y MODERNO LOBBY
-
-					</h3>	
-				</div>
+				</h3>
 
 			</div>
 		</div>
@@ -60,17 +57,12 @@
 	<!-- *************************************** -->
 	<section class="container-fluid auditorio-casa-retiro-2 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				
-				<div class="col-md-offset-6 col-md-6 back-color">
-					<h3>SALA VIP	 		<br><br>
-						SALA DE SERVICIOS 	<br><br>
-						ZONAS VERDES 		<br><br>		
+			<div class="col-md-12 text-center text-align-profile">
+				<h3><b>SALA VIP	 		<br><br>
+					SALA DE SERVICIOS 	<br><br>
+					ZONAS VERDES</b> 		<br><br>		
 
-					</h3>
-						
-				</div>
-
+				</h3>
 			</div>
 		</div>
 	</section>
@@ -81,15 +73,10 @@
 	<!-- *************************************** -->
 	<section class="container-fluid auditorio-casa-retiro-3 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				
-				<div class="col-md-6 back-color">
-					<h3>SERVICIO DE CATERING <br><br>
-						PARQUEADERO CON CAPACIDAD PARA 200 VEHÍCULOS
-					</h3>
-
-				</div>
-
+			<div class="col-md-12 text-center text-align-profile">
+				<h3><b>SERVICIO DE CATERING <br><br>
+						PARQUEADERO CON CAPACIDAD PARA 200 VEHÍCULOS</b>
+				</h3>
 			</div>
 		</div>
 	</section>
@@ -100,7 +87,7 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center" style="padding:10% 0 10%">
-				<button type="button" class="ghost-button-profile" data-toggle="modal" data-target=".bs-example-modal-lg">VER GALERÍA</button>
+				<button type="button" class="ghost-button-profile" data-toggle="modal" data-target=".bs-example-modal-lg"><b>VER GALERÍA</b></button>
 			</div>
 		</div>
 	</section>
@@ -114,8 +101,8 @@
 			<div class="col-md-6 santa-maria">
 				<div class="row">
 					<div class="index-button profile text-center">
-						<h3 class="lead">SANTA MARÍA DE LOS ÁNGELES</h3>
-					<a href="santa_maria.php" class="ghost-button-links">VISITAR SITIO</a>
+						<h3 class="lead"><b>SANTA MARÍA DE LOS ÁNGELES</b></h3>
+					<a href="santa_maria.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>
 			</div>
@@ -123,8 +110,8 @@
 			<div class="col-md-6 betania">
 				<div class="row">
 					<div class="index-button profile text-center">
-						<h3 class="lead">BETANIA</h3>
-						<a href="betania.php" class="ghost-button-links">VISITAR SITIO</a>
+						<h3 class="lead"><b>BETANIA</b></h3>
+						<a href="betania.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>
 			</div>

@@ -32,26 +32,28 @@
 	<section class="container-fluid">
 		<div class="row" style="padding-bottom: 5%;">
 			<div class="col-md-offset-4 col-md-4">
-				<form>
+
+				<form action="includes/contacto.php" method="POST">
 					<div class="form-group">
-						<input type="text" class="form-control input-style-reset" id="exampleInputEmail1" placeholder="NOMBRE">
+						<input type="text" name="nombre" class="form-control input-style-reset" placeholder="NOMBRE">
 					</div>
 				  	<div class="form-group">				    	
-				    	<input type="text" class="form-control input-style-reset" id="exampleInputPassword1" placeholder="ASUNTO">
+				    	<input type="text" name="asunto" class="form-control input-style-reset" placeholder="ASUNTO">
 				  	</div>
 				  	<div class="form-group">
-					    <input type="email" class="form-control input-style-reset" id="exampleInputEmail1" placeholder="CORREO">
+					    <input type="email" class="form-control input-style-reset" name="email" placeholder="CORREO" require>
 					 </div>
-					 <textarea class="form-control input-style-reset" rows="6" placeholder="MENSAJE" style="resize:none;" ></textarea>
+					 <textarea class="form-control input-style-reset" rows="6" name="mensaje" placeholder="MENSAJE" style="resize:none;" ></textarea>
 					
 					<div style="padding: 20px" class="text-center">
-						<p>Espacio para el recaptcha de google</p>
+						<div class="g-recaptcha" data-sitekey="6LdJVxATAAAAAJGNivucuYd9kDr-_TRIDy4yvxR3"></div>
 					</div>
 						
-					<div class="text-center">					 	
-						<a class="ghost-button-profile" style="letter-spacing:5px;" href=""><b>ENVIAR</b></a>
-					 </div>
+					<div class="text-center">
+						<input class="ghost-button-profile" type="submit" name="enviar" value="ENVIAR" style="letter-spacing:5px; font-weight:bold;">
+					</div>
 				</form>
+
 			</div>
 		</div>
 	</section>
