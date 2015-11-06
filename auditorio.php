@@ -4,7 +4,7 @@
 	<!-- META TAGS AND CSS STYLE FOR THE WEB SITE -->
 	<?php include 'includes/headers.php'; ?>
 
-	<title>Santa María de los Ángeles | Fundación Id y Enseñad</title>
+	<title>Auditorio Diocesáno | Fundación Id y Enseñad</title>
 </head>
 <body>
 
