@@ -4,7 +4,7 @@
 	<!-- META TAGS AND CSS STYLE FOR THE WEB SITE -->
 	<?php include 'includes/headers.php'; ?>
 
-	<title>Auditorio Diocesáno | Fundación Id y Enseñad</title>
+	<title>Auditorio Diocesano | Fundación Id y Enseñad</title>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
 				<!-- MENU -->
 				<?php include 'includes/menu.php'; ?>
 
-				<h1 class="text-center lead title-size" style="color:#FFB700;">Auditorio Diocesáno</h1>
+				<h1 class="text-center lead title-size" style="color:#FFB700;">Auditorio Diocesano</h1>
 			</div>
 		</div>
 	</section>

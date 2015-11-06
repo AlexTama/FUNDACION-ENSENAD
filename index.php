@@ -81,7 +81,7 @@
 			<div class="col-md-6 auditorio-index">
 				<div class="row">
 						<div class="text-center index-button"  style="padding:18% 0 4%;">
-						<h3 class="lead" style="color:#FFB700;" ><b>AUDITORIO DIOCESÁNO</b></h3>
+						<h3 class="lead" style="color:#FFB700;" ><b>AUDITORIO DIOCESANO</b></h3>
 						<a href="auditorio.php" class="ghost-button-links"><b>VISITAR SITIO</b></a>
 					</div>
 				</div>		
