@@ -30,7 +30,7 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="margin-reset col-md-12 text-center" style="background-color:#eeeeee; color:#8e8e8c; padding:20px 0 20px;">
-				<h3><b>CONFERENCIAS</b></h3>
+				<h3 style="letter-spacing:5px;"><b>CONFERENCIAS</b></h3>
 			</div>
 		</div>
 	</section>
