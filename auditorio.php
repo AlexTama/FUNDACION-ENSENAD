@@ -19,7 +19,7 @@
 				<!-- MENU -->
 				<?php include 'includes/menu.php'; ?>
 
-				<h1 class="text-center lead title-size" style="color:#FFB700;"><b>Auditorio Diocesáno</b></h1>
+				<h1 class="text-center lead title-size" style="color:#FFB700;">Auditorio Diocesáno</h1>
 			</div>
 		</div>
 	</section>
@@ -29,7 +29,7 @@
 	<!-- *************************************** -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 text-center" style="background-color:#eeeeee; color:#8e8e8c; padding:20px 0 20px;">
+			<div class="margin-reset col-md-12 text-center" style="background-color:#eeeeee; color:#8e8e8c; padding:20px 0 20px;">
 				<h3><b>CONFERENCIAS</b></h3>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 	<!-- *************************************** -->
 	<section class="container-fluid auditorio-casa-retiro-1 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center text-align-profile">
+			<div class="margin-reset col-md-12 text-center text-align-profile">
 				<h3><b>CAPACIDAD PARA MÁS DE 1200 PERSONAS <br><br>
 				AMPLIO Y MODERNO LOBBY</b>
 
@@ -57,7 +57,7 @@
 	<!-- *************************************** -->
 	<section class="container-fluid auditorio-casa-retiro-2 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center text-align-profile">
+			<div class="margin-reset col-md-12 text-center text-align-profile">
 				<h3><b>SALA VIP	 		<br><br>
 					SALA DE SERVICIOS 	<br><br>
 					ZONAS VERDES</b> 		<br><br>		
@@ -73,7 +73,7 @@
 	<!-- *************************************** -->
 	<section class="container-fluid auditorio-casa-retiro-3 full-screen">
 		<div class="row">
-			<div class="col-md-12 text-center text-align-profile">
+			<div class="margin-reset col-md-12 text-center text-align-profile">
 				<h3><b>SERVICIO DE CATERING <br><br>
 						PARQUEADERO CON CAPACIDAD PARA 200 VEHÍCULOS</b>
 				</h3>
