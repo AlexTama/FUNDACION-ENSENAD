@@ -33,7 +33,7 @@
 		<div class="row" style="padding-bottom: 5%;">
 			<div class="col-md-offset-4 col-md-4">
 
-				<form action="includes/contacto.php" method="POST">
+				<form action="envia.php" method="POST">
 					<div class="form-group">
 						<input type="text" name="nombre" class="form-control input-style-reset" placeholder="NOMBRE">
 					</div>

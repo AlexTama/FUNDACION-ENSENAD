@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<!-- META TAGS AND CSS STYLE FOR THE WEB SITE -->
-	<?php include 'headers.php'; ?>
-
-	<title>Santa María de los Ángeles | Fundación Id y Enseñad</title>
+	<meta charset="UTF-8">
+	<?php include 'includes/headers.php'; ?>
+	<title>Gracias | Fundación ID y Enseñad</title>
 </head>
 <body>
-
+	
 	<!-- *************************************** -->
 	<!-- FIRST SECTION -->
 	<!-- menu -->
@@ -17,24 +16,28 @@
 			<div class="col-md-12" style="padding:12% 0 0;">
 				
 				<!-- MENU -->
-				<?php include 'menu.php'; ?>
+				<?php include 'includes/menu.php'; ?>
 
-				<h1 class="text-center" style="color:#000000; letter-spacing: 5px;"><b>!GRACIAS¡</b></h1>
+				<h1 class="text-center" style="letter-spacing:5px;"><b>!GRACIAS¡</b></h1>
+
 			</div>
 		</div>
 	</section>
-	
+
 	<!-- *************************************** -->
 	<!-- SECOND SECTION -->
-	<!-- contact form -->
+	<!-- message -->
 	<!-- *************************************** -->
 
 	<section class="container-fluid">
 		<div class="row" style="padding:2% 0 5%;">
 			<div class="col-md-12 text-center">
-				<p class="lead">Por enviarnos sus comentarios y/o solicitudes le responderemos en la brevedad posible</p>
-				<p class="lead">!FELIZ DÍA¡</p>
-
+				<p class="lead">
+					Por enviarnos sus comentarios y/o solicitudes le responderemos en la brevedad posible 
+				</p>
+				<p class="lead">
+					!FELIZ DÍA¡
+				</p>
 			</div>
 		</div>
 	</section>
@@ -42,9 +45,10 @@
 	<!-- ***************************************************************** -->
 	<!-- FOOTER -->
 	<!-- ***************************************************************** -->
-	<?php include 'footer.php'; ?>
-	
+	<?php include 'includes/footer.php'; ?>
+
 	<!-- SCRIPTS FOR ANIMATION -->
-	<?php include 'scripts.php'; ?>
+	<?php include 'includes/scripts.php'; ?>
+
 </body>
 </html>

@@ -14,12 +14,6 @@ if (isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) {
 
 	if ($result) {
 
-		echo "captcha validado ...";
-		echo "<br>";
-		echo "<br>";
-		echo "<br>";
-		echo "<br>";
-
 		if (isset($_POST["enviar"])) {
 
 			/**************************************************************************/
@@ -40,20 +34,16 @@ if (isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) {
 			$message	= $mensaje;
 			$headers	= "From: ".$nombre." ".$email;
 
-			echo "<br>";
-			echo "<br>";
-			echo "<br>";
-			echo "<br>";
-			echo "capturo las variables";
-			include "gracias.php" ;
+			
+			include 'gracias.php' ;
 
-			if (@mail($to, $subject, $message, $headers)) {
-				include 'gracias.php';
+			/*if (@mail($to, $subject, $message, $headers)) {
+				include '../gracias.php';
 			}
 
 			else {
 
-			}
+			}*/
 
 		}
 
