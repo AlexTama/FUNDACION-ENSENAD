@@ -1,5 +1,6 @@
 <?php
 //comprueba que exista la petición y no está vacío el arreglo
+
 if (isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) {
 
 	/**************************************************************************/
@@ -37,21 +38,21 @@ if (isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) {
 			$to 		= "alextamayop@gmail.com";
 			$subject 	= $asunto;
 			$message	= $mensaje;
-			$headers	= "From: ".$nombre." - ".$email;
+			$headers	= "From: ".$nombre." ".$email;
 
 			echo "<br>";
 			echo "<br>";
 			echo "<br>";
 			echo "<br>";
 			echo "capturo las variables";
+			include "gracias.php" ;
 
 			if (@mail($to, $subject, $message, $headers)) {
-				echo "Formulario enviado gracias".$nombre;
-				echo $nombre.$mensaje.$asunto.$email;
+				include 'gracias.php';
 			}
 
 			else {
-				echo "no se envio";
+
 			}
 
 		}
