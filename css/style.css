@@ -403,3 +403,16 @@ html, body {
 	background-size:cover;
 	margin: auto;
 }
+
+.betania-auditorio-margin-index{
+		padding: 18% 0 4%;
+	}
+
+.santa-maria-margin-index{
+		padding: 59% 0 4%;
+	}
+
+@media (min-width: 1) {
+	
+}
+

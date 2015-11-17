@@ -46,7 +46,7 @@
 					 <textarea class="form-control input-style-reset" rows="6" name="mensaje" placeholder="MENSAJE" style="resize:none;" ></textarea>
 					
 					<div style="padding: 20px" class="text-center">
-						<div class="g-recaptcha" data-sitekey="6LdJVxATAAAAAJGNivucuYd9kDr-_TRIDy4yvxR3" require></div>
+						<div class="g-recaptcha" data-sitekey="6LeQJBETAAAAAFlCxez7X3kn1EW9W8dCVqcEg_ZJ"></div>
 					</div>
 						
 					<div class="text-center">

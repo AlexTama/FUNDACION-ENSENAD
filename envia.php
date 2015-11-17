@@ -7,7 +7,7 @@ if (isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) {
 	/* CONTROL DE SPAM CON EL SISTEMA DE RECAPTCHA */
 	/**************************************************************************/
 
-	$secret_key = "6LdJVxATAAAAADNL4J2Qct5L9483Me-xrqz5gPq6";
+	$secret_key = "6LeQJBETAAAAAJbzkU2zmjUSNvjh7CnKLtZkHynm";
 	$ip 		= $_SERVER["REMOTE_ADDR"];			//ip del usuario de la aplicación
 	$captcha	= $_POST["g-recaptcha-response"];	//captura los datos de validación
 	$result		= file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret_key&response=$captcha&remoteid=$ip");
@@ -37,13 +37,13 @@ if (isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) {
 			
 			include 'gracias.php' ;
 
-			/*if (@mail($to, $subject, $message, $headers)) {
+			if (@mail($to, $subject, $message, $headers)) {
 				include '../gracias.php';
 			}
 
 			else {
 
-			}*/
+			}
 
 		}
 
